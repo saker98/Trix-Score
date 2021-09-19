@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1">
+        <Button
+            android:text="Trix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/trix" />
+        <Button
+            android:text="King ♥"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/king" />
+        <Button
+            android:text="Ltoosh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ltoosh" />
+        <Button
+            android:text="Diamond  ♦"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/diamond" />
+        <Button
+            android:text="Queens"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/queens" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2"
+            android:layout_gravity="center">
+            <TextView
+                android:text="Result:"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textView2"
+                android:gravity="center"
+                android:paddingLeft="15px" />
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="111.0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/result"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="0.0dp"
+                android:gravity="center"
+                android:layout_gravity="end|center"
+                android:text="0" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout6"
+            android:paddingLeft="38px">
+            <Button
+                android:text="Clear"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/clear" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</RelativeLayout>
